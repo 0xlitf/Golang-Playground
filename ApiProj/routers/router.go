@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"github.com/4u1kto/Golang-Playground/ApiProj/controllers"
+	"ApiProj/controllers"
 
 	"github.com/astaxie/beego"
 )

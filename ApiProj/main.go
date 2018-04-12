@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "github.com/4u1kto/Golang-Playground/ApiProj/routers"
+	_ "ApiProj/routers"
 
 	"github.com/astaxie/beego"
 )
