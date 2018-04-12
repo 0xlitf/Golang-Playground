@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	. "fmt"
+)
 
 func main() {
-	fmt.Print("Hello World")
+	i := 0
+	for ; i < 6; i++ {
+		defer func() {
+			Println(i)
+		}()
+	}
 }

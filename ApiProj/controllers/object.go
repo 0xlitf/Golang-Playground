@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"ApiProj/models"
+	"github.com/4u1kto/Golang-Playground/ApiProj/models"
 	"encoding/json"
 
 	"github.com/astaxie/beego"
